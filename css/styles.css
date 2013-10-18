@@ -36,7 +36,9 @@ body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
-/* Wrapper for page content to push down footer */
+
+/* Wrapper for page content to push down footer ---------------------
+------------------------------------------------------------------ */
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -45,8 +47,48 @@ body {
   margin: 0 auto -48px;
 }
 
-/* Set the fixed height of the footer here */
+  /* this seems to be the breakpoit for nexus 4, may need to conform to bootstrap media queries later, we will see */
+  @media screen and (max-width: 384px) {
+
+    #wrap {
+      margin: 0 auto -76px;
+    }
+    
+  }
+
+/* End of Wrapper for page content to push down footer --------------
+------------------------------------------------------------------ */
+
+/* Set the fixed height of the footer here --------------------------
+------------------------------------------------------------------ */
 #push,
 #footer {
   height: 48px;
+}
+
+/* this seems to be the breakpoit for nexus 4, may need to conform to bootstrap media queries later, we will see */
+@media screen and (max-width: 384px) {
+
+  #push,
+  footer {
+    height: 76px;
+    /*background: tan;*/
+    background: #333;
+  }
+
+}
+
+/* End of #push and #footer for page content to push down footer ----
+------------------------------------------------------------------ */
+
+/* hiding the content for a moment so it is easier to see the footer */
+.main-content {
+  /*display: none;*/
+}
+
+/* removing top and bottom margin for smaller devices */
+@media screen and (max-width: 767px) {
+  .navbar-nav {
+    margin: 0 -15px;
+  }
 }

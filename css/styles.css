@@ -48,7 +48,8 @@ body {
 }
 
   /* this seems to be the breakpoit for nexus 4, may need to conform to bootstrap media queries later, we will see */
-  @media screen and (max-width: 384px) {
+  /*@media screen and (max-width: 384px) {*/
+  @media screen and (max-width: 479px) {
 
     #wrap {
       margin: 0 auto -76px;
@@ -67,7 +68,8 @@ body {
 }
 
 /* this seems to be the breakpoit for nexus 4, may need to conform to bootstrap media queries later, we will see */
-@media screen and (max-width: 384px) {
+/* @media screen and (max-width: 384px) { */
+@media screen and (max-width: 479px) {
 
   #push,
   footer {

@@ -1,0 +1,18 @@
+.drop-pane-wrapper {
+	left: 50%;
+	margin-top: -137px;
+	margin-left: -133px;
+	padding: 0 10px 10px;
+	position: absolute;
+	background: #f7f5fa;
+	border: 6px solid #dbdbdb;
+	border-top: none;
+	z-index: 1000;
+	-webkit-border-radius: 0 0 5px 5px;
+	   -moz-border-radius: 0 0 5px 5px;
+			border-radius: 0 0 5px 5px;
+}
+
+.navbar {
+	z-index: 2000;
+}

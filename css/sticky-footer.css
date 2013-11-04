@@ -1,0 +1,49 @@
+/* --- styles for sticky footer -------------------------------------
+                http://ryanfait.com/sticky-footer/
+------------------------------------------------------------------ */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer ---------------------
+------------------------------------------------------------------ */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -48px;
+}
+
+  /* this seems to be the breakpoit for nexus 4, may need to conform to bootstrap media queries later, we will see */
+  /*@media screen and (max-width: 384px) {*/
+  @media screen and (max-width: 479px) {
+
+    #wrap {
+      margin: 0 auto -64px;
+    }
+    
+  }
+
+/* End of Wrapper for page content to push down footer --------------
+------------------------------------------------------------------ */
+
+/* Set the fixed height of the footer here --------------------------
+------------------------------------------------------------------ */
+#push,
+#footer {
+  height: 48px;
+}
+
+/* this seems to be the breakpoit for nexus 4, may need to conform to bootstrap media queries later, we will see */
+/* @media screen and (max-width: 384px) { */
+@media screen and (max-width: 479px) {
+
+  #push,
+  footer {
+    height: 64px;
+  }
+
+}

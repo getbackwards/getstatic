@@ -19,6 +19,12 @@ h4 {
 #####################################################################
 ------------------------------------------------------------------ */
 
+.navbar-inverse .navbar-brand, 
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #ffffff;
+}
+
 /* -------------------- Styling .navbar-nav > li ------------------*/
 
 /* --------------- End of Styling .navbar-nav > li ----------------*/

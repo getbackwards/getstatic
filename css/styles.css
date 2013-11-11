@@ -82,6 +82,15 @@ form label {
  margin: 0 0 30px;
 }
 
+.col-md-8 .img-responsive {
+  padding: 4px;
+  float: right;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+     -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+          box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+}
+
 /* ------------------ End of .main-content Styles -------------------
 #####################################################################
 ------------------------------------------------------------------ */

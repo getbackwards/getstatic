@@ -43,7 +43,6 @@ form label {
 #####################################################################
 ------------------------------------------------------------------ */
 
-
 /* ---------------------- Styling .cat-head -----------------------*/
 
 .cat-head {
@@ -57,12 +56,13 @@ form label {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
    .cat-head {
     margin: 0 30px 0 0;
     float: left;
-    /*border: 1px solid green;*/
-    
+    /*border: 1px solid green;*/ 
   }
+
 }
 
 @media (min-width: 992px) {
@@ -82,14 +82,25 @@ form label {
  margin: 0 0 30px;
 }
 
+/* -------------- Styling .col-md-8 .img-responsive --------------*/
+
 .col-md-8 .img-responsive {
   padding: 4px;
-  float: right;
   border: 1px solid #ccc;
   -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.15);
      -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.15);
           box-shadow: 0 2px 3px rgba(0,0,0,0.15);
 }
+
+  @media screen and (min-width: 768px) {
+
+    .col-md-8 .img-responsive {
+      float: right;
+    }
+
+  }
+
+/* ---------- End of Styling .col-md-8 .img-responsive ------------*/
 
 /* ------------------ End of .main-content Styles -------------------
 #####################################################################

@@ -1,2 +1,1 @@
-//@prepros-append http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
-//@prepros-append https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js
+//@prepros-append min/parallax.min.js

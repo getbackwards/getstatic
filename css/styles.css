@@ -18,6 +18,11 @@ form label {
 h2 {
   margin: 30px 0 10px;
   line-height: 1.2;
+  background: url(../images/repeating-bg-pixel.png) repeat;
+  -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+   -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+        box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+        0 0 5px 5px #FFFFFF
 }
 
 /* ---------------------- End of headings ---------------------------
@@ -68,6 +73,7 @@ h2 {
 .col-md-8 .img-responsive {
   padding: 4px;
   border: 1px solid #ccc;
+  background: #fff;
   -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.15);
      -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.15);
           box-shadow: 0 2px 3px rgba(0,0,0,0.15);
@@ -132,7 +138,7 @@ footer p {
 
 footer p,
 footer p a {
-  color: #999;
+  color: #ccc;
 }
 
 footer a:hover {
